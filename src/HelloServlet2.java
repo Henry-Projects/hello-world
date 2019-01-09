@@ -10,7 +10,8 @@ import javax.servlet.*;
                 PrintWriter pw = response.getWriter();
                 pw.println("<B>Hello! Intellij");
                 pw.close();
+                System.out.println("hi");
                 }
         }
-
+//dfs
 
