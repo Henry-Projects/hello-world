@@ -1,6 +1,8 @@
 import java.io.*;
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 
+@WebServlet(urlPatterns = { "/hello" })
         public class HelloServlet2 extends GenericServlet {
 
             public void service(ServletRequest request,
@@ -13,5 +15,5 @@ import javax.servlet.*;
                 System.out.println("hi");
                 }
         }
-//dfs
+
 
