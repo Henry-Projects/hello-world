@@ -2,7 +2,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 
-//hello
+//hello2
 
 @WebServlet(urlPatterns = { "/hello" })
         public class HelloServlet2 extends GenericServlet {
